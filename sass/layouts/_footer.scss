@@ -1,0 +1,22 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-bottom: 0;
+  background-color: $color-tertiary;
+  position: sticky;
+
+  &__copyright {
+  }
+
+  &__logo {
+    justify-self: center;
+    img {
+      height: 3rem;
+    }
+  }
+  &__socials {
+    justify-self: flex-end;
+  }
+}

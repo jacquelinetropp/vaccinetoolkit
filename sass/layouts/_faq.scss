@@ -1,0 +1,31 @@
+.faqpage {
+  padding: 0 3rem;
+  width: 75%;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
+}
+
+.ewd-ufaq-faqs {
+  padding: 2rem;
+}
+
+.ufaq-faq-title-text {
+  color: $color-primary;
+  font-size: 2rem;
+}
+
+.ewd-ufaq-post-margin-symbol {
+  color: $color-tertiary;
+}
+
+.ewd-ufaq-post-margin,
+.ufaq-faq-post {
+  font-size: 1.5rem;
+}
+
+.ufaq-faq-categories {
+  display: none;
+}

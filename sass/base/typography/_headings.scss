@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Signika", sans-serif;
+  clear: both;
+  margin: 0;
+}
+
+.heading-primary,
+h1 {
+  font-size: 5rem;
+}
+
+.heading-secondary,
+h2 {
+  font-size: 4rem;
+}
+
+.heading-tertiary,
+h3 {
+  font-size: 3rem;
+}
+
+.heading-quad,
+h4 {
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+a:focus {
+  outline: none;
+}
