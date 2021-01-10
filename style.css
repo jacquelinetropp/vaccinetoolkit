@@ -546,7 +546,8 @@ a.nav-link {
   display: none; }
 
 .fronthead {
-  position: relative; }
+  position: relative;
+  margin-top: -1rem; }
   .fronthead__img img {
     height: 70vh;
     width: 100%; }

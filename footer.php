@@ -18,7 +18,7 @@
 			© Doctors For America | 2021
 		</div>
 		<div class="footer__logo">
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/logo.jpg" alt="Doctors For America Logo">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/transparentlogo.png" alt="Doctors For America Logo">
 		</div>
 		<div class="footer__socials">
 			Social Meida
@@ -26,7 +26,7 @@
 	</div>
 </footer><!-- #colophon -->
 </div><!-- #page -->
-
+<script src="dist/aos.js"></script>
 <?php wp_footer(); ?>
 
 </body>

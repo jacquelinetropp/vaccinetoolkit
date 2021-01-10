@@ -23,6 +23,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="dist/aos.css">
 
 	<?php wp_head(); ?>
 </head>
@@ -37,18 +38,18 @@
 				<div class="header__branding">
 					<a href="/wordpress">
 						<div class="header__logo">
-							<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/logo.jpg" alt="Doctors For America Logo">
+							<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/transparentlogo.png" alt="Doctors For America Logo">
 						</div>
 
 					</a>
 				</div><!-- .site-branding -->
 
 				<nav id="site-navigation" class="main-navigation navbar">
-					<button class="menu-toggle primary-menu navbutton" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e('Primary Menu', 'dream'); ?></button>
+					<button class="menu-toggle primary-menu navbutton" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e('Primary Menu', 'vaccine_toolkit'); ?></button>
 
 					<?php
 					wp_nav_menu(array(
-						'theme_location' => 'menu-1',
+						'theme_location' => 'Primary',
 						'depth'          => 2,
 						'container'      => false,
 						'menu_class'     => 'navbar-nav mr-auto',
