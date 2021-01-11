@@ -7,7 +7,7 @@
   z-index: 30;
   position: fixed;
   width: 100%;
-  top: 0;
+  // top: 0;
   &__branding {
     margin-right: auto;
   }
@@ -33,23 +33,38 @@ ul#menu-primary {
 ul#menu-primary li {
   font-size: 2.2rem;
   padding-right: 2rem;
+  a {
+    transition: all 0.2s;
+    display: inline-block;
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+      color: $color-primary;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      border-bottom: 3px solid $color-primary;
+    }
+  }
 }
 
-a.nav-link {
-  transition: all 0.2s;
-  display: inline-block;
-  text-decoration: none;
+// a.nav-link {
+//   transition: all 0.2s;
+//   display: inline-block;
+//   text-decoration: none;
 
-  &:link,
-  &:visited {
-    color: $color-primary;
-  }
+//   &:link,
+//   &:visited {
+//     color: $color-primary;
+//   }
 
-  &:hover {
-    transform: scale(1.1);
-    border-bottom: 3px solid $color-primary;
-  }
-}
+//   &:hover {
+//     transform: scale(1.1);
+//     border-bottom: 3px solid $color-primary;
+//   }
+// }
 
 .navbutton {
   display: none;

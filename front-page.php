@@ -9,8 +9,9 @@
         </div>
     </section>
     <section class="faq">
+        <h2 class="heading-secondary">Answering Your Questions</h2>
         <div class="faqbox">
-            <a href="/" class="faqbox__link">
+            <a href="http://dfacovidvaccinetoolkit.com/general" class="faqbox__link">
                 <div class="faqbox__img">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/general.jpg" alt="mask header image">
                 </div>
@@ -21,7 +22,7 @@
             </a>
         </div>
         <div class="faqbox">
-            <a href="/" class="faqbox__link">
+            <a href="/safety" class="faqbox__link">
                 <div class="faqbox__img">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/safety.jpg" alt="mask header image">
                 </div>
@@ -32,7 +33,7 @@
             </a>
         </div>
         <div class="faqbox">
-            <a href="/" class="faqbox__link">
+            <a href="/timeline" class="faqbox__link">
                 <div class="faqbox__img">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/timeline.jpg" alt="mask header image">
                 </div>
@@ -43,7 +44,7 @@
             </a>
         </div>
         <div class="faqbox">
-            <a href="/" class="faqbox__link">
+            <a href="/vulerable-populations" class="faqbox__link">
                 <div class="faqbox__img">
                     <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/vulnerable.jpg" alt="mask header image">
                 </div>

@@ -21,7 +21,7 @@
 			<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/transparentlogo.png" alt="Doctors For America Logo">
 		</div>
 		<div class="footer__socials">
-			Social Meida
+			<?php echo do_shortcode('[DISPLAY_ULTIMATE_SOCIAL_ICONS]'); ?>
 		</div>
 	</div>
 </footer><!-- #colophon -->

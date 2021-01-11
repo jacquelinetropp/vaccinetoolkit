@@ -36,7 +36,7 @@
 		<header id="masthead" class="site-header">
 			<div class="header">
 				<div class="header__branding">
-					<a href="/wordpress">
+					<a href="http://dfacovidvaccinetoolkit.com/">
 						<div class="header__logo">
 							<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/transparentlogo.png" alt="Doctors For America Logo">
 						</div>
@@ -44,20 +44,13 @@
 					</a>
 				</div><!-- .site-branding -->
 
-				<nav id="site-navigation" class="main-navigation navbar">
-					<button class="menu-toggle primary-menu navbutton" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e('Primary Menu', 'vaccine_toolkit'); ?></button>
-
-					<?php
-					wp_nav_menu(array(
-						'theme_location' => 'Primary',
-						'depth'          => 2,
-						'container'      => false,
-						'menu_class'     => 'navbar-nav mr-auto',
-						'fallback_cb'    => 'WP_Bootstrap_Navwalker::fallback',
-						// Process nav menu using our custom nav walker.
-						'walker'         => new WP_Bootstrap_Navwalker(),
-					));
-					?>
+				<nav id="site-navigation" class="main-navigation navbar navbar-nav">
+					<!-- <button class="menu-toggle primary-menu navbutton" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e('Primary Menu', 'vaccine_toolkit'); ?></button> -->
+					<div id="toggle">
+						<img src="<?php bloginfo('stylesheet_directory'); ?>/assets/menu.svg" alt="Show" /></div>
+					<div id="popout">
+						<?php wp_nav_menu(array('theme_location' => 'Primary', 'menu_class' => 'nav-menu')); ?>
+					</div>
 				</nav><!-- #site-navigation -->
 			</div>
 

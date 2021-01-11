@@ -193,3 +193,7 @@ require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 @ini_set('upload_max_size', '64M');
 @ini_set('post_max_size', '64M');
 @ini_set('max_execution_time', '300');
+
+
+//menu js file
+wp_enqueue_script('wpb_slidepanel', get_template_directory_uri() . '/js/slidepanel.js', array('jquery'), '20160909', true);

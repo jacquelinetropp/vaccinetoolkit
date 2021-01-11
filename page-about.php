@@ -3,7 +3,7 @@
     <section class="about">
 
         <div class="about__img">
-            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/fullDFAPic.jpg" alt="mask header image">
+            <img src="<?php bloginfo('stylesheet_directory'); ?>/assets/FullDFAPic.jpg" alt="mask header image">
         </div>
         <div class="about__txt">
             <h1 class="heading-primary">About Our Toolkit</h1>
